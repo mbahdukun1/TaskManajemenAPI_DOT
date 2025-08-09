@@ -1,5 +1,7 @@
 export enum TaskStatus {
   OPEN = 'OPEN',
   IN_PROGRESS = 'IN_PROGRESS',
-  DONE = 'DONE',
+  REVIEW = 'REVIEW',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED',
 }

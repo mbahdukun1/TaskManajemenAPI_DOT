@@ -5,6 +5,8 @@ var TaskStatus;
 (function (TaskStatus) {
     TaskStatus["OPEN"] = "OPEN";
     TaskStatus["IN_PROGRESS"] = "IN_PROGRESS";
-    TaskStatus["DONE"] = "DONE";
+    TaskStatus["REVIEW"] = "REVIEW";
+    TaskStatus["COMPLETED"] = "COMPLETED";
+    TaskStatus["CANCELLED"] = "CANCELLED";
 })(TaskStatus || (exports.TaskStatus = TaskStatus = {}));
 //# sourceMappingURL=task-status.enum.js.map
